@@ -1,6 +1,6 @@
 # 1. Meeting Title
 
-Workshop AI: Levantamento de Requisitos â€” Aplicativo de Assinatura para Criadores de ConteÃºdo
+Workshop AI: Requirements Gathering â€” Subscription App for Content Creators
 
 ---
 
@@ -13,90 +13,90 @@ Workshop AI: Levantamento de Requisitos â€” Aplicativo de Assinatura para C
 # 3. Participants
 
 - Isabel Sprogis (BD/SWD-TMA2)
-- Camille [Sobrenome nÃ£o mencionado]
+- Camille [Last name not mentioned]
 
 ---
 
 # 4. Executive Summary
 
-A equipe discutiu os requisitos para o desenvolvimento de um aplicativo onde pessoas comuns podem se conectar com criadores de conteÃºdo artÃ­stico e artesanal (crochÃª, pintura, argila, mÃºsica, etc.) atravÃ©s de assinaturas mensais. Foram definidos os principais recursos do MVP, incluindo o modelo de assinatura, o formato de conteÃºdo em estilo blog, o sistema de tags (macro e micro), o feed personalizado e o sistema de avaliaÃ§Ã£o. Itens como free trial de 14 dias e compra de posts individuais foram discutidos, mas deixados fora do escopo do MVP.
+The team discussed the requirements for developing an application where users can connect with artistic and craft content creators (crochet, painting, clay, music, etc.) through monthly subscriptions. The main MVP features were defined, including the subscription model, blog-style content format, the tag system (macro and micro), the personalized feed, and the rating system. Items such as a 14-day free trial and individual post purchases were discussed but left out of the MVP scope.
 
 ---
 
 # 5. Key Discussion Points
 
-## Objetivo do Aplicativo
+## App Purpose
 
-- Isabel iniciou a discussÃ£o solicitando o desenvolvimento de um aplicativo onde pessoas possam seguir e comprar conteÃºdos de criadores de conteÃºdo, focado principalmente em artes e crafts (crochÃª, trabalhos manuais, etc.).
-- O objetivo principal Ã© conectar pessoas que querem aprender com criadores de conteÃºdo artÃ­stico.
-- Cada criador de conteÃºdo controla sua prÃ³pria pÃ¡gina e decide o que postar â€” conteÃºdo gratuito ou pago.
+- Isabel initiated the discussion requesting the development of an app where people can follow and purchase content from content creators, focused mainly on arts and crafts (crochet, handmade items, etc.).
+- The main goal is to connect people who want to learn with artistic content creators.
+- Each content creator controls their own page and decides what to post â€” free or paid content.
 
-## Modelo de MonetizaÃ§Ã£o
+## Monetization Model
 
-- Isabel propÃ´s um modelo de assinatura mensal onde o assinante paga diretamente ao criador de conteÃºdo.
-- A plataforma retÃ©m uma porcentagem baixa (aproximadamente 10%) da mensalidade, e os 90% restantes vÃ£o direto para o criador de conteÃºdo.
-- Camille questionou se haveria opÃ§Ã£o de compra avulsa de conteÃºdos ou apenas assinatura. Isabel esclareceu que, para o MVP, o modelo serÃ¡ apenas assinatura, liberando acesso a toda a loja do criador.
+- Isabel proposed a monthly subscription model where the subscriber pays directly to the content creator.
+- The platform retains a low percentage (approximately 10%) of the monthly fee, and the remaining 90% goes directly to the content creator.
+- Camille asked whether there would be an option to purchase individual content or only subscriptions. Isabel clarified that for the MVP, the model will be subscription-only, granting access to the creator's entire store.
 
-## Formato do ConteÃºdo
+## Content Format
 
-- Camille perguntou sobre o formato de disponibilizaÃ§Ã£o do conteÃºdo (vÃ­deos, fotos, downloads).
-- Isabel esclareceu que a plataforma deve suportar vÃ­deos (WMV), imagens (JPEG), PDFs, arquivos de Ã¡udio (MP3), tablaturas (arquivos .tab) e links diretos para o YouTube (para vÃ­deos privados).
-- Cada criador gerencia seu prÃ³prio conteÃºdo e pode escolher o formato que desejar.
+- Camille asked about the content delivery format (videos, photos, downloads).
+- Isabel clarified that the platform should support videos (WMV), images (JPEG), PDFs, audio files (MP3), tablature files (.tab), and direct links to YouTube (for private videos).
+- Each creator manages their own content and can choose any format they want.
 
-## Estrutura do ConteÃºdo â€” Estilo Blog
+## Content Structure â€” Blog Style
 
-- Camille questionou se o conteÃºdo seria organizado em aulas ou como um repositÃ³rio Ãºnico (estilo "drive").
-- Isabel definiu que serÃ¡ no estilo blog, com posts. Cada post terÃ¡ um tÃ­tulo e o conteÃºdo (ex: diagrama de crochÃª, PDF de instruÃ§Ãµes, vÃ­deo demonstrativo).
-- O assinante de um criador tem acesso a todos os posts jÃ¡ publicados por ele.
-- O criador pode editar e excluir seus prÃ³prios posts a qualquer momento.
+- Camille asked whether the content would be organized as lessons or as a single repository ("drive" style).
+- Isabel defined that it will be blog-style, with posts. Each post will have a title and content (e.g., crochet diagram, instruction PDF, demo video).
+- A creator's subscriber has access to all posts already published by that creator.
+- The creator can edit and delete their own posts at any time.
 
-## InteraÃ§Ã£o e AvaliaÃ§Ã£o
+## Interaction and Rating
 
-- Isabel propÃ´s uma Ã¡rea de comentÃ¡rios abaixo de cada post.
-- Sistema de curtidas bÃ¡sico (Ã­cone de coraÃ§Ã£o).
-- Sistema de avaliaÃ§Ã£o de 1 a 5 estrelas para os criadores de conteÃºdo, disponÃ­vel apenas para usuÃ¡rios que jÃ¡ assinaram o criador pelo menos uma vez.
-- O criador pode ler os feedbacks e usar as informaÃ§Ãµes para melhorar seus conteÃºdos.
+- Isabel proposed a comment section below each post.
+- Basic like system (heart icon).
+- 1 to 5 star rating system for content creators, available only to users who have subscribed to the creator at least once.
+- The creator can read the feedback and use the information to improve their content.
 
-## Descoberta de Criadores â€” Feed e Busca
+## Creator Discovery â€” Feed and Search
 
-- Isabel solicitou uma pÃ¡gina inicial com um feed personalizado.
-- No primeiro acesso, o aplicativo pergunta ao usuÃ¡rio quais sÃ£o seus 5 principais interesses (categorias/tags).
-- Isabel enviarÃ¡ por e-mail uma lista de categorias possÃ­veis. O objetivo inicial Ã© criar pelo menos 10 categorias.
-- O usuÃ¡rio seleciona 5 categorias para personalizar o feed.
-- Caixa de busca para encontrar criadores de conteÃºdo pelo nome.
-- Criadores terÃ£o nome e nickname para identificaÃ§Ã£o.
+- Isabel requested a home page with a personalized feed.
+- On first access, the app asks the user for their top 5 interests (categories/tags).
+- Isabel will send a list of possible categories via email. The initial goal is to create at least 10 categories.
+- The user selects 5 categories to personalize the feed.
+- Search box to find content creators by name.
+- Creators will have a name and nickname for identification.
 
-## Sistema de Tags
+## Tag System
 
-- Isabel propÃ´s dois nÃ­veis de tags: macro tags (ex: crochÃª, pintura, artesanato, argila, mÃºsica) e micro tags (ex: amigurumi, crochet core, etc.).
-- Cada criador pode ter atÃ© 5 tags.
-- Macro tags sÃ£o usadas na seleÃ§Ã£o inicial do usuÃ¡rio; micro tags sÃ£o usadas na pesquisa e nas sugestÃµes.
-- Isabel mencionou a possibilidade de criar um algoritmo de recomendaÃ§Ã£o que relacione interesses (ex: quem gosta de crochÃª pode gostar de tricÃ´, mas nÃ£o necessariamente de resina).
+- Isabel proposed two levels of tags: macro tags (e.g., crochet, painting, crafts, clay, music) and micro tags (e.g., amigurumi, crochet core, etc.).
+- Each creator can have up to 5 tags.
+- Macro tags are used in the user's initial selection; micro tags are used in search and suggestions.
+- Isabel mentioned the possibility of creating a recommendation algorithm that links interests (e.g., someone who likes crochet might like knitting, but not necessarily resin art).
 
-## ConteÃºdo Gratuito vs. Pago
+## Free vs. Paid Content
 
-- ConteÃºdo gratuito aparece normalmente no feed.
-- ConteÃºdo pago aparece "blurred" (borrado) â€” o tÃ­tulo Ã© visÃ­vel, mas o conteÃºdo estÃ¡ borrado, dando ao usuÃ¡rio uma noÃ§Ã£o do que estÃ¡ disponÃ­vel.
-- Ao assinar, o usuÃ¡rio tem acesso total ao conteÃºdo.
-- Isabel mencionou a possibilidade de um free trial de 14 dias, mas decidiu deixar isso fora do MVP.
+- Free content appears normally in the feed.
+- Paid content appears "blurred" â€” the title is visible, but the content is blurred, giving the user an idea of what is available.
+- Upon subscribing, the user gets full access to the content.
+- Isabel mentioned the possibility of a 14-day free trial but decided to leave it out of the MVP.
 
 ---
 
 # 6. Decisions Made
 
-- O MVP serÃ¡ um aplicativo/site onde pessoas se conectam com criadores de conteÃºdo artÃ­stico e artesanal atravÃ©s de assinaturas mensais.
-- O modelo de monetizaÃ§Ã£o do MVP serÃ¡ exclusivamente assinatura mensal (sem compra avulsa de posts individuais).
-- A assinatura libera acesso a todo o conteÃºdo publicado pelo criador (estilo blog com posts).
-- A plataforma reterÃ¡ aproximadamente 10% da assinatura; 90% vai para o criador.
-- O conteÃºdo serÃ¡ organizado em formato de blog (posts com tÃ­tulo e conteÃºdo multimÃ­dia).
-- Formatos suportados: vÃ­deos (WMV), imagens (JPEG), PDFs, Ã¡udio (MP3), tablaturas (.tab) e links do YouTube.
-- Cada criador pode ter atÃ© 5 tags (macro e micro tags combinadas).
-- O feed da pÃ¡gina inicial serÃ¡ personalizado com base em 5 categorias selecionadas pelo usuÃ¡rio no primeiro acesso.
-- ConteÃºdo pago aparecerÃ¡ "blurred" (borrado) no feed para nÃ£o-assinantes; apenas o tÃ­tulo serÃ¡ visÃ­vel.
-- Sistema de avaliaÃ§Ã£o de 1 a 5 estrelas, disponÃ­vel apenas para usuÃ¡rios que jÃ¡ assinaram o criador.
-- Ãrea de comentÃ¡rios e curtidas (coraÃ§Ã£o) em cada post.
-- Criadores gerenciam seus prÃ³prios posts (criar, editar, excluir).
-- Free trial de 14 dias foi discutido, mas excluÃ­do do MVP.
+- The MVP will be an app/website where users connect with artistic and craft content creators through monthly subscriptions.
+- The MVP monetization model will be exclusively monthly subscription (no individual post purchases).
+- The subscription grants access to all content published by the creator (blog-style with posts).
+- The platform will retain approximately 10% of the subscription; 90% goes to the creator.
+- Content will be organized in blog format (posts with title and multimedia content).
+- Supported formats: videos (WMV), images (JPEG), PDFs, audio (MP3), tablatures (.tab), and YouTube links.
+- Each creator can have up to 5 tags (macro and micro tags combined).
+- The home page feed will be personalized based on 5 categories selected by the user on first access.
+- Paid content will appear "blurred" in the feed for non-subscribers; only the title will be visible.
+- 1 to 5 star rating system, available only to users who have already subscribed to the creator.
+- Comment section and likes (heart) on each post.
+- Creators manage their own posts (create, edit, delete).
+- 14-day free trial was discussed but excluded from the MVP.
 
 ---
 
@@ -104,17 +104,17 @@ A equipe discutiu os requisitos para o desenvolvimento de um aplicativo onde pes
 
 | Owner | Task | Due Date |
 |---|---|---|
-| Isabel Sprogis | Enviar por e-mail a lista de categorias possÃ­veis para as tags (mÃ­nimo 10 categorias) | TBD |
-| Isabel Sprogis | Confirmar lista de macro tags e micro tags para o sistema de tags | TBD |
-| Camille | Iniciar documentaÃ§Ã£o de requisitos do MVP com base nesta reuniÃ£o | TBD |
-| Camille | Definir algoritmo de recomendaÃ§Ã£o baseado em tags (macro e micro) | TBD |
+| Isabel Sprogis | Send via email the list of possible categories for tags (minimum 10 categories) | TBD |
+| Isabel Sprogis | Confirm the list of macro tags and micro tags for the tag system | TBD |
+| Camille | Start the MVP requirements documentation based on this meeting | TBD |
+| Camille | Define the recommendation algorithm based on tags (macro and micro) | TBD |
 
 ---
 
 # 8. Follow-ups / Open Questions
 
-- Lista completa de categorias e tags â€” aguardando envio por e-mail da Isabel.
-- Algoritmo de recomendaÃ§Ã£o (como linkar interesses relacionados, ex: crochÃª â†’ tricÃ´) â€” a ser discutido em reuniÃ£o futura.
-- Modelo de free trial (14 dias) â€” deixado fora do MVP, mas pode ser revisitado em versÃµes futuras.
-- Compra avulsa de posts individuais â€” excluÃ­da do MVP, mas pode ser reconsiderada posteriormente.
-- Valor exato da assinatura mensal â€” nÃ£o foi definido (mencionado valor aproximado de 10 BRL como exemplo).
+- Complete list of categories and tags â€” awaiting email from Isabel.
+- Recommendation algorithm (how to link related interests, e.g., crochet -> knitting) â€” to be discussed in a future meeting.
+- Free trial model (14 days) â€” left out of the MVP, but may be revisited in future versions.
+- Individual post purchases â€” excluded from the MVP, but may be reconsidered later.
+- Exact monthly subscription price â€” not defined (approximate value of 10 BRL was mentioned as an example).
